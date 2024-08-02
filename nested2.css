@@ -1,0 +1,34 @@
+h2 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#divA {
+    width: 600px;
+    height: 600px;
+    background-color: #FFB200;
+}
+
+#divB {
+    width: 500px;
+    height: 500px;
+    background-color: #FFB200;
+}
+
+#divC {
+    width: 400px;
+    height: 400px;
+    background-color: #EB5B00;
+}
+
+#divD {
+    width: 300px;
+    height: 300px;
+    background-color: #E4003A;
+}
+
+#divE {
+    width: 200px;
+    height: 200px;
+    background-color: #B60071;
+}

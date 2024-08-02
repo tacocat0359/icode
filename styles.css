@@ -1,0 +1,11 @@
+body {
+    background-image: url('wall.jpg');
+    background-size: cover;
+    text-align: center;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: red;
+}

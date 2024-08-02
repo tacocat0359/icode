@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body { 
+                background-color: #FF8C9E;
+                color: blue;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            }
+            #java {
+                background-color: #478CCF;
+                width: 400px;
+            }
+            #btn1, #btn2 {
+                background-color: #478CCF;
+                color: #fd7388;
+                border: 2px solid;
+            }
+        </style>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Press Ctrl+R";
+            }
+            function myFunction2() {
+                document.getElementById("demo2").innerHTML = "Press Ctrl+R";
+            }
+            function myFunction3() {
+                document.getElementById("btn1").innerHTML = "Press Me Again";
+            }
+            function myFunction4() {
+                document.getElementById("btn2").innerHTML = "Press Me Again";
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="java">
+            <h2 id="demo2">Demo JavaScript in Head</h2>
+            <p id="demo">A Paragraph.</p>
+        </div>
+
+        <button id="btn1" type="button" onclick="myFunction(), myFunction3()">Press Me</button>
+        <button id="btn2" type="button" onclick="myFunction2(), myFunction4()">Press Me, Too!</button>
+    </body>
+</html>

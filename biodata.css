@@ -1,0 +1,62 @@
+body {
+    background-color: #F5EDED;
+}
+h1 {
+    color: #415571;
+    text-align: center;
+}
+h2, h3 {
+    color: #478CCF;
+}
+p {
+    margin-left: 6px;
+}
+#john {
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px;
+    width: 1200px;
+    margin-left: 125px;
+    margin-bottom: 80px;
+    border-radius: 11px;
+}
+#title {
+    background-color: #F5EDED;
+    width: 1150px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 80px;
+    border-radius: 11px;
+}
+#educ {
+    background-color: #F5EDED;
+    width: 1150px;
+    height: 75px;
+    margin-left: 25px;
+    border-radius: 11px;
+}
+#exp {
+    background-color: #F5EDED;
+    width: 1150px;
+    height: 120px;
+    margin-left: 25px;
+    border-radius: 11px;
+}
+#bio {
+    background-color: #F5EDED;
+    width: 1150px;
+    height: 95px;
+    margin-left: 25px;
+    border-radius: 11px;
+}
+#masters, #intern, #teach {
+    background-color: #478CCF;
+    color: white;
+    width: 1100px;
+    height: 20px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
