@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="sarim.css">
+
+        <title>Questionaire</title>
+
+        <script>
+            var q1= false
+            var q2= false
+            var q3= false
+            var q4= false
+            var q5= false
+            var q6= false
+            var q7= false
+            var q8= false
+            var q9= false
+            var q10= false
+            function start() {
+                if (q1==false) {
+                    document.getElementById("ans").innerHTML = "Wrong answer. Refresh the page to try again."
+                } else {
+                    document.getElementById("ans").innerHTML = "Good job!"
+                    myFunction()
+                    
+                }
+            }
+            function myFunction() {
+                document.getElementById("q").innerHTML = "Question 2:"
+                document.getElementById("qq").innerHTML = "What is the richest company?"
+                document.getElementById("btn1").innerHTML = "Apple"
+                document.getElementById("btn2").innerHTML = "Microsoft"
+                document.getElementById("btn3").innerHTML = "Amazon"
+                document.getElementById("btn4").innerHTML = "Google"
+
+            }
+            function myFunction2() {
+                document.getElementById("q").innerHTML = "Question 3:"
+                document.getElementById("qq").innerHTML = ""
+                document.getElementById("btn1").innerHTML = ""
+                document.getElementById("btn2").innerHTML = ""
+                document.getElementById("btn3").innerHTML = ""
+                document.getElementById("btn4").innerHTML = ""
+            }
+            function myFunction3() {
+                document.getElementById("q").innerHTML = "Question 4:"
+                document.getElementById("qq").innerHTML = ""
+                document.getElementById("btn1").innerHTML = ""
+                document.getElementById("btn2").innerHTML = ""
+                document.getElementById("btn3").innerHTML = ""
+                document.getElementById("btn4").innerHTML = ""
+            }
+            function myFunction4() {
+                document.getElementById("q").innerHTML = "Question 5:"
+                document.getElementById("qq").innerHTML = ""
+                document.getElementById("btn1").innerHTML = ""
+                document.getElementById("btn2").innerHTML = ""
+                document.getElementById("btn3").innerHTML = ""
+                document.getElementById("btn4").innerHTML = ""
+            }
+            function myFunction5() {
+                document.getElementById("q").innerHTML = "Question 6:"
+                document.getElementById("qq").innerHTML = ""
+                document.getElementById("btn1").innerHTML = ""
+                document.getElementById("btn2").innerHTML = ""
+                document.getElementById("btn3").innerHTML = ""
+                document.getElementById("btn4").innerHTML = ""
+            }
+            function myFunction6() {
+                document.getElementById("q").innerHTML = "Question 7:"
+                document.getElementById("qq").innerHTML = ""
+                document.getElementById("btn1").innerHTML = ""
+                document.getElementById("btn2").innerHTML = ""
+                document.getElementById("btn3").innerHTML = ""
+                document.getElementById("btn4").innerHTML = ""
+            }
+            function myFunction7() {
+                document.getElementById("q").innerHTML = "Question 8:"
+                document.getElementById("qq").innerHTML = ""
+                document.getElementById("btn1").innerHTML = ""
+                document.getElementById("btn2").innerHTML = ""
+                document.getElementById("btn3").innerHTML = ""
+                document.getElementById("btn4").innerHTML = ""
+            }
+            function myFunction8() {
+                document.getElementById("q").innerHTML = "Question 9:"
+                document.getElementById("qq").innerHTML = ""
+                document.getElementById("btn1").innerHTML = ""
+                document.getElementById("btn2").innerHTML = ""
+                document.getElementById("btn3").innerHTML = ""
+                document.getElementById("btn4").innerHTML = ""
+            }
+            function myFunction9() {
+                document.getElementById("q").innerHTML = "Question 10:"
+                document.getElementById("qq").innerHTML = ""
+                document.getElementById("btn1").innerHTML = ""
+                document.getElementById("btn2").innerHTML = ""
+                document.getElementById("btn3").innerHTML = ""
+                document.getElementById("btn4").innerHTML = ""
+            }
+            function incorrect() {
+                q1= false
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="div1">
+            <h1>Questionaire</h1>
+
+            
+            <div id="div2">
+                <h2 id="q">Question 1:</h2>
+                <h2 id="qq">When did Canada gain its independence?</h2>
+            </div>
+
+            <!-- button tag 1 -->
+            <button id="btn1" class="button button1" type="button" onclick="incorrect()">July 4th, 1776</button>
+            <!-- button tag 2 -->
+            <button id="btn2" class="button button2" type="button" onclick="">July 1th, 1867</button>
+            <!-- button tag 3 -->
+            <button id="btn3" class="button button3" type="button" onclick="incorrect()">June 1th, 1867</button>
+            <!-- button tag 4 -->
+            <button id="btn4" class="button button4" type="button" onclick="incorrect()">July 4th, 1867</button>
+            </div>
+
+            <div id="div3">
+                <h2 id="ans"></h2>
+
+                <button id="btn5" class="button button5" type="button" onclick="">Next Question</button>
+            </div>
+        </div>
+    </body>
+</html>
